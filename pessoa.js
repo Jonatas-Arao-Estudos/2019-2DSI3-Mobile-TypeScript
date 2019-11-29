@@ -3,6 +3,7 @@ var empresa;
     var Pessoa = /** @class */ (function () {
         function Pessoa() {
         }
+        //Métodos - São as ações da classe
         Pessoa.prototype.getNome = function () {
             return this._nome;
         };
@@ -29,4 +30,5 @@ var empresa;
         };
         return Pessoa;
     }());
+    empresa.Pessoa = Pessoa;
 })(empresa || (empresa = {}));
