@@ -9,9 +9,7 @@ namespace empresa{
          }
 
          public setNome(nome: string) : void{
-             if(nome != ""){
                 this._nome = nome;
-             }
          }
 
          public getIdade() : number{
@@ -19,9 +17,7 @@ namespace empresa{
          }
 
          public setIdade(idade: number) : void{
-             if(idade != NaN){
                 this._idade = idade;
-             }
          }
 
          public getCpf() : string{
@@ -29,9 +25,7 @@ namespace empresa{
          }
 
          public setCpf(cpf: string) : void{
-             if(cpf != ""){
                 this._cpf = cpf;
-             }
          }
     }
 }
